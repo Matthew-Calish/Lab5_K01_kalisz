@@ -5,6 +5,7 @@ import { Lab51AlertBtn } from './components/Lab51AlertBtn';
 import Lab52Card from './components/Lab52Card';
 import Lab53ProgressBar from './components/Lab53ProgressBar';
 import Lab54Class from './components/Lab54Class';
+import Lab55ImageView from './components/Lab55ImageView';
 
 export default function App() {
   return (
@@ -22,7 +23,10 @@ export default function App() {
         {/* <Lab52Card />
         <Lab53ProgressBar /> */}
 
-        <Lab54Class text="Dane przekazane z App" />
+        {/* <Lab54Class text="Dane przekazane z App" /> */}
+
+        <Lab55ImageView />
+
 
 
         <StatusBar style="auto" />
