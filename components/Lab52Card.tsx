@@ -18,7 +18,7 @@ const Lab52Card = () => {
             </Card.Content>
 
             <Card.Cover
-                source={require(" ../assets/m7logo.png")}
+                source={require("../assets/m7logo.png")}
                 resizeMode="contain"
             />
 
