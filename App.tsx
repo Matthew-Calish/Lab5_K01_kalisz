@@ -4,6 +4,7 @@ import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { Lab51AlertBtn } from './components/Lab51AlertBtn';
 import Lab52Card from './components/Lab52Card';
 import Lab53ProgressBar from './components/Lab53ProgressBar';
+import Lab54Class from './components/Lab54Class';
 
 export default function App() {
   return (
@@ -18,8 +19,10 @@ export default function App() {
          */}
 
 
-        <Lab52Card />
-        <Lab53ProgressBar />
+        {/* <Lab52Card />
+        <Lab53ProgressBar /> */}
+
+        <Lab54Class text="Dane przekazane z App" />
 
 
         <StatusBar style="auto" />
