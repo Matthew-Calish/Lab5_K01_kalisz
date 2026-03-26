@@ -25,7 +25,21 @@ export default function App() {
 
         {/* <Lab54Class text="Dane przekazane z App" /> */}
 
-        <Lab55ImageView />
+        <Lab55ImageView images={[
+          require("./assets/img-01.png"), 
+          require("./assets/img-02.png"), 
+          require("./assets/img-03.png"),
+          require("./assets/img-04.png"),
+          require("./assets/img-05.png"),
+        ]} />
+        <Lab55ImageView images={[
+          require("./assets/zdj1.png"), 
+          require("./assets/zdj2.png"), 
+          require("./assets/zdj3.png"),
+          require("./assets/zdj4.png"),
+          require("./assets/zdj5.png"),
+          require("./assets/zdj6.png"),
+        ]} />
 
 
 
@@ -43,13 +57,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#ccf0cc',
     alignItems: 'center',
     justifyContent: 'flex-start',
-    marginTop: 30,
-    marginHorizontal: 10,
-    marginBottom: 10,
+    paddingTop: 20,
     gap: 3,
   },
   textText: {
-    fontSize: 16,
+    fontSize: 26,
     textAlign: 'center',
     color: '#737bdc',
     fontWeight: 'bold',
